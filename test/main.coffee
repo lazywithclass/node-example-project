@@ -11,5 +11,5 @@ describe 'lib', ->
   it 'could be required', ->
     should.exist require('../index')
 
-  it 'answers nicely', ->
+  it 'greets', ->
     require('../index')().should.equal 'hi'

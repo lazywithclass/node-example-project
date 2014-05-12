@@ -1,4 +1,4 @@
 test:
-	./node_modules/.bin/mocha --compilers coffee:coffee-script --reporter spec test
+	./node_modules/.bin/mocha --compilers coffee:coffee-script/register --reporter spec test
 
 .PHONY: test
