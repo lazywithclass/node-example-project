@@ -1,5 +1,3 @@
-require 'coffee-script'
-
 should = require 'should'
 
 describe 'testing', ->
